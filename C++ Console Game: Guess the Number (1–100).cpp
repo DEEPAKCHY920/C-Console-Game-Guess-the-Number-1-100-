@@ -9,6 +9,7 @@ int main () {
     int i = 1;
 
     while (i <= 5) {
+        cout<<"enter a number \n";
         cin >> guess;
 
         if (number == guess) {
